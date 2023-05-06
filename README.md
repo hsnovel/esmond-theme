@@ -1,11 +1,7 @@
 # Esmond Theme #
 
 # About
-Esmond is a dark color scheme for emacs, it expects rainbow-delimiters
-package to be installed (but not required) for more advaneced coloring
-as faces for font lock are limited. It is completely personal preferance
-to install it I do not have any relation to rainbow-delimiters nor I am
-trying to promote it. 
+Esmond is a dark color scheme for emacs
 
 # Screenshot #
 
