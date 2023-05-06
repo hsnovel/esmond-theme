@@ -19,7 +19,13 @@
 ;; You should have received a copy of the GNU General Public License
 ;; along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-(deftheme esmond "esmond theme")
+
+;;; Commentary:
+;; 
+
+;;; Code:
+
+(deftheme esmond "Esmond theme.")
 
 (let
     ((esmond-fg "#ece5e1")
@@ -132,3 +138,7 @@
       evil-normal-state-cursor '(box "#fdf4c1"))
 
 (provide-theme 'esmond)
+
+(provide 'esmond-theme)
+
+;;; esmond-theme.el ends here
