@@ -1,4 +1,4 @@
-;;; esmond-theme.el --- Dark theme for emacs
+;;; esmond-theme.el --- Esmond dark theme
 
 ;; Copyright 2023 Çağan Korkmaz
 
@@ -27,7 +27,7 @@
 
 ;;; Code:
 
-(deftheme esmond "Esmond theme.")
+(deftheme esmond "Esmond.")
 
 (let
     ((esmond-fg "#ece5e1")
@@ -88,8 +88,7 @@
    `(compilation-info ((t (:foreground ,esmond-compilation-g :inherit 'unspecified))))
    `(compilation-warning ((t (:foreground ,esmond-compilation-warn :bold t :inherit 'unspecified))))
    `(compilation-error ((t (:foreground ,esmond-compilation-r))))
-   `(compilation-mode-line-fail ((t ,(list :foreground esmond-compilation-r
-					   :weight 'bold :inherit 'unspecified))))
+   `(compilation-mode-line-fail ((t ,(list :foreground esmond-compilation-r :weight 'bold :inherit 'unspecified))))
    `(compilation-mode-line-exit ((t ,(list :foreground esmond-compilation-g
 					   :weight 'bold :inherit 'unspecified))))
 
@@ -127,17 +126,13 @@
 				 :foreground ,esmond-fg-2))))
    `(whitespace-indentation ((t (:background ,esmond-bg-3 :foreground ,esmond-fg-2))))
    `(whitespace-space-after-tab ((t (:background ,esmond-bg-3 :foreground ,esmond-fg-2))))
-   `(whitespace-space-before-tab ((t (:background ,esmond-bg-3 :foreground ,esmond-fg-2))))
-   ))
+   `(whitespace-space-before-tab ((t (:background ,esmond-bg-3 :foreground ,esmond-fg-2))))))
 ;; autoload
 (and load-file-name
     (boundp 'custom-theme-load-path)
     (add-to-list 'custom-theme-load-path
 		 (file-name-as-directory
 		  (file-name-directory load-file-name))))
-
-(setq evil-insert-state-cursor '((bar . 90) "#fdf4c1")
-      evil-normal-state-cursor '(box "#fdf4c1"))
 
 (provide-theme 'esmond)
 
