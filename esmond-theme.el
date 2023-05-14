@@ -27,7 +27,7 @@
 
 ;;; Code:
 
-(deftheme esmond "Esmond.")
+(deftheme esmond "Esmond theme")
 
 (let
     ((esmond-fg "#ece5e1")
@@ -38,9 +38,9 @@
      (esmond-bg-2 "#171717")
      (esmond-bg-3 "#242424")
      (esmond-bg-4 "#282828")
-     (esmond-keyword "#977b7d")
-     (esmond-type "#a06a50")
-     (esmond-str "#9a4d45")
+     (esmond-keyword "#c79b9e")
+     (esmond-type "#d98259")
+     (esmond-str "#c45247")
      (esmond-cursor "#fdf4c1")
      (esmond-bg-inactive "#121212")
      (esmond-comment "#474340")
