@@ -136,6 +136,4 @@
 
 (provide-theme 'esmond)
 
-(provide 'esmond)
-
 ;;; esmond-theme.el ends here
