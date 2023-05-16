@@ -29,3 +29,13 @@ Esmond is avaliable on MELPA, you can install it with
 `M-x package-install esmond-theme`
 
 If you cannot find the package try `M-x package-refresh-contents`
+
+### Note
+
+If your color scheme does not look the same as in the screenshot it
+might be due do rainbow-delimiters mode I am using. If you want to
+get the same coloring for brackets and braces you can install that
+package. And set the max face count to 1 with
+```lsip
+(setq rainbow-delimiters-max-face-count 1)
+```
