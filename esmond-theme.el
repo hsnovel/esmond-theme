@@ -2,7 +2,7 @@
 
 ;; Copyright 2023 Çağan Korkmaz
 
-;; Author: Çağan Korkmaz <xcatalystt@gmail.com>
+;; Author: Çağan Korkmaz <cagankorkmaz35@gmail.com>
 ;; URL: https://github.com/xcatalyst/esmond-theme
 ;; Version: 0.01
 
