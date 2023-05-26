@@ -66,6 +66,8 @@
    `(font-lock-type-face ((t (:foreground ,esmond-type ))))
    `(font-lock-constant-face ((t (:foreground ,esmond-fg ))))
    `(font-lock-variable-name-face ((t (:foreground ,esmond-fg))))
+   `(highlight ((t (:background ,esmond-bg-3 :foreground nil))))
+   `(highlight-current-line-face ((t ,(list :background esmond-bg-3 :foreground nil))))
    `(minibuffer-prompt ((t (:foreground ,esmond-fg-3))))
 
    `(show-paren-match ((t (:background ,esmond-bg-3))))
